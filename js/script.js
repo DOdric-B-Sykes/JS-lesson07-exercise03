@@ -2,11 +2,6 @@ var body = document.querySelector(".happy");
 var dropDown = document.querySelector("#moods");
 var mood = "happy";
 
-
-addGuestButton.addEventListener("click", function (){
-    const guest = guestInput.value;
-});
-
 dropDown.addEventListener("change", function(e){
  mood = e.target.value;
 
